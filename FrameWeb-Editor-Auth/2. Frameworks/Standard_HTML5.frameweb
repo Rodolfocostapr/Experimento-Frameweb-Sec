@@ -57,9 +57,9 @@
     <packagedElement xsi:type="frameweb:Tag" name="fieldset"/>
     <packagedElement xsi:type="frameweb:Tag" name="form"/>
     <packagedElement xsi:type="frameweb:Tag" name="input">
-    <nestedClassifier xsi:type="frameweb:Tag" name="inputDate"/>
-    <nestedClassifier xsi:type="frameweb:Tag" name="inputNumber"/>
-    <nestedClassifier xsi:type="frameweb:Tag" name="inputText"/>
+      <nestedClassifier xsi:type="frameweb:Tag" name="inputDate"/>
+      <nestedClassifier xsi:type="frameweb:Tag" name="inputNumber"/>
+      <nestedClassifier xsi:type="frameweb:Tag" name="inputText"/>
     </packagedElement>
     <packagedElement xsi:type="frameweb:Tag" name="keygen"/>
     <packagedElement xsi:type="frameweb:Tag" name="label"/>
