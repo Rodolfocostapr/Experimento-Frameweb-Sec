@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frameweb:FrameworkProfile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:frameweb="http://nemo.inf.ufes.br/projects/frameweb/FW-2015" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" name="VRaptor3" kind="FrameworkImplementation">
+  <eAnnotations source="http://nemo.inf.ufes.br/projects/frameweb/FW-2015"/>
+  <packageImport/>
+  <packagedElement xsi:type="frameweb:ControllerSet" name="ControllerSet">
+    <packagedElement xsi:type="frameweb:Controller" name="Controller">
+      <ownedAttribute xsi:type="frameweb:ControllerProperty" name="base_FrontControllerClass" association="//ControllerSet/controllerExtension">
+        <defaultValue xsi:type="uml:LiteralString" value="Controller"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerExtension" name="controllerExtension" memberEnd="//ControllerSet/Controller/base_FrontControllerClass //ControllerSet/controllerExtension/controllerExtensionEnd">
+      <ownedEnd xsi:type="frameweb:ControllerExtensionEnd" name="controllerExtensionEnd" aggregation="composite" association="//ControllerSet/controllerExtension"/>
+    </packagedElement>
+  </packagedElement>
+</frameweb:FrameworkProfile>

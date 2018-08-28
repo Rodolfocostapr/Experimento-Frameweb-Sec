@@ -1,0 +1,4 @@
+
+<br />
+<h:selectOneMenu id="FW_ID" value="#{FW_VALUE}">
+</h:selectOneMenu>

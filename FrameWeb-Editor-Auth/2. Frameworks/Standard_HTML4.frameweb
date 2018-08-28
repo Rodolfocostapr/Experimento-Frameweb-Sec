@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frameweb:FrameworkProfile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:frameweb="http://nemo.inf.ufes.br/projects/frameweb/FW-2015" name="HTML4">
+  <packagedElement xsi:type="frameweb:TagLib" name="HTML4basic" URI="" prefix="">
+    <packagedElement xsi:type="frameweb:Tag" name="!"/>
+    <packagedElement xsi:type="frameweb:Tag" name="!DOCTYPE"/>
+    <packagedElement xsi:type="frameweb:Tag" name="basefont"/>
+    <packagedElement xsi:type="frameweb:Tag" name="body"/>
+    <packagedElement xsi:type="frameweb:Tag" name="br"/>
+    <packagedElement xsi:type="frameweb:Tag" name="h1"/>
+    <packagedElement xsi:type="frameweb:Tag" name="h2"/>
+    <packagedElement xsi:type="frameweb:Tag" name="h3"/>
+    <packagedElement xsi:type="frameweb:Tag" name="h4"/>
+    <packagedElement xsi:type="frameweb:Tag" name="h5"/>
+    <packagedElement xsi:type="frameweb:Tag" name="h6"/>
+    <packagedElement xsi:type="frameweb:Tag" name="hr"/>
+    <packagedElement xsi:type="frameweb:Tag" name="html"/>
+    <packagedElement xsi:type="frameweb:Tag" name="p"/>
+    <packagedElement xsi:type="frameweb:Tag" name="string"/>
+    <packagedElement xsi:type="frameweb:Tag" name="title"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="HTML4formating">
+    <packagedElement xsi:type="frameweb:Tag" name="abbr"/>
+    <packagedElement xsi:type="frameweb:Tag" name="acronym"/>
+    <packagedElement xsi:type="frameweb:Tag" name="address"/>
+    <packagedElement xsi:type="frameweb:Tag" name="b"/>
+    <packagedElement xsi:type="frameweb:Tag" name="bdo"/>
+    <packagedElement xsi:type="frameweb:Tag" name="big"/>
+    <packagedElement xsi:type="frameweb:Tag" name="blockquote"/>
+    <packagedElement xsi:type="frameweb:Tag" name="center"/>
+    <packagedElement xsi:type="frameweb:Tag" name="cite"/>
+    <packagedElement xsi:type="frameweb:Tag" name="code"/>
+    <packagedElement xsi:type="frameweb:Tag" name="del"/>
+    <packagedElement xsi:type="frameweb:Tag" name="dfn"/>
+    <packagedElement xsi:type="frameweb:Tag" name="em"/>
+    <packagedElement xsi:type="frameweb:Tag" name="font"/>
+    <packagedElement xsi:type="frameweb:Tag" name="i"/>
+    <packagedElement xsi:type="frameweb:Tag" name="ins"/>
+    <packagedElement xsi:type="frameweb:Tag" name="kbd"/>
+    <packagedElement xsi:type="frameweb:Tag" name="pre"/>
+    <packagedElement xsi:type="frameweb:Tag" name="q"/>
+    <packagedElement xsi:type="frameweb:Tag" name="s"/>
+    <packagedElement xsi:type="frameweb:Tag" name="samp"/>
+    <packagedElement xsi:type="frameweb:Tag" name="small"/>
+    <packagedElement xsi:type="frameweb:Tag" name="strike"/>
+    <packagedElement xsi:type="frameweb:Tag" name="strong"/>
+    <packagedElement xsi:type="frameweb:Tag" name="sub"/>
+    <packagedElement xsi:type="frameweb:Tag" name="sup"/>
+    <packagedElement xsi:type="frameweb:Tag" name="tt"/>
+    <packagedElement xsi:type="frameweb:Tag" name="u"/>
+    <packagedElement xsi:type="frameweb:Tag" name="var"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="HTML4forms_input">
+    <packagedElement xsi:type="frameweb:Tag" name="button"/>
+    <packagedElement xsi:type="frameweb:Tag" name="fieldset"/>
+    <packagedElement xsi:type="frameweb:Tag" name="form"/>
+    <packagedElement xsi:type="frameweb:Tag" name="input">
+      <nestedClassifier xsi:type="frameweb:Tag" name="inputDate"/>
+      <nestedClassifier xsi:type="frameweb:Tag" name="inputNumber"/>
+      <nestedClassifier xsi:type="frameweb:Tag" name="inputText"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:Tag" name="label"/>
+    <packagedElement xsi:type="frameweb:Tag" name="legend"/>
+    <packagedElement xsi:type="frameweb:Tag" name="optgroup"/>
+    <packagedElement xsi:type="frameweb:Tag" name="option"/>
+    <packagedElement xsi:type="frameweb:Tag" name="select"/>
+    <packagedElement xsi:type="frameweb:Tag" name="textarea"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="HTML4frames">
+    <packagedElement xsi:type="frameweb:Tag" name="iframe"/>
+    <packagedElement xsi:type="frameweb:Tag" name="frame"/>
+    <packagedElement xsi:type="frameweb:Tag" name="frameset"/>
+    <packagedElement xsi:type="frameweb:Tag" name="noframes"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="HTML4images">
+    <packagedElement xsi:type="frameweb:Tag" name="area"/>
+    <packagedElement xsi:type="frameweb:Tag" name="img"/>
+    <packagedElement xsi:type="frameweb:Tag" name="map"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="HTML4links">
+    <packagedElement xsi:type="frameweb:Tag" name="a"/>
+    <packagedElement xsi:type="frameweb:Tag" name="link"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="HTML4lists">
+    <packagedElement xsi:type="frameweb:Tag" name="dd"/>
+    <packagedElement xsi:type="frameweb:Tag" name="dir"/>
+    <packagedElement xsi:type="frameweb:Tag" name="dl"/>
+    <packagedElement xsi:type="frameweb:Tag" name="dt"/>
+    <packagedElement xsi:type="frameweb:Tag" name="li"/>
+    <packagedElement xsi:type="frameweb:Tag" name="menu"/>
+    <packagedElement xsi:type="frameweb:Tag" name="ol"/>
+    <packagedElement xsi:type="frameweb:Tag" name="ul"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="HTML4tables">
+    <packagedElement xsi:type="frameweb:Tag" name="caption"/>
+    <packagedElement xsi:type="frameweb:Tag" name="col"/>
+    <packagedElement xsi:type="frameweb:Tag" name="colgroup"/>
+    <packagedElement xsi:type="frameweb:Tag" name="table"/>
+    <packagedElement xsi:type="frameweb:Tag" name="tbody"/>
+    <packagedElement xsi:type="frameweb:Tag" name="td"/>
+    <packagedElement xsi:type="frameweb:Tag" name="tfoot"/>
+    <packagedElement xsi:type="frameweb:Tag" name="th"/>
+    <packagedElement xsi:type="frameweb:Tag" name="thead"/>
+    <packagedElement xsi:type="frameweb:Tag" name="tr"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="HTML4styles_semantics">
+    <packagedElement xsi:type="frameweb:Tag" name="div"/>
+    <packagedElement xsi:type="frameweb:Tag" name="span"/>
+    <packagedElement xsi:type="frameweb:Tag" name="style"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="HTML4metainfo">
+    <packagedElement xsi:type="frameweb:Tag" name="base"/>
+    <packagedElement xsi:type="frameweb:Tag" name="head"/>
+    <packagedElement xsi:type="frameweb:Tag" name="meta"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="HTML4programing">
+    <packagedElement xsi:type="frameweb:Tag" name="applet"/>
+    <packagedElement xsi:type="frameweb:Tag" name="noscript"/>
+    <packagedElement xsi:type="frameweb:Tag" name="object"/>
+    <packagedElement xsi:type="frameweb:Tag" name="param"/>
+    <packagedElement xsi:type="frameweb:Tag" name="script"/>
+  </packagedElement>
+</frameweb:FrameworkProfile>

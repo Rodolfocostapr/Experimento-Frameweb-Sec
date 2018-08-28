@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Plugin
+Bundle-SymbolicName: br.ufes.inf.nemo.frameweb.plugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.sirius;bundle-version="5.0.1",
+ org.eclipse.sirius.diagram;bundle-version="5.0.1",
+ br.ufes.inf.nemo.frameweb
+Import-Package: org.eclipse.core.internal.resources,
+ org.eclipse.uml2.uml.internal.impl

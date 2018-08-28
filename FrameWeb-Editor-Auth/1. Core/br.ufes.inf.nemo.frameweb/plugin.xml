@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated frameweb -->
+      <package
+            uri="http://nemo.inf.ufes.br/projects/frameweb/FW-2015"
+            class="br.ufes.inf.nemo.frameweb.model.frameweb.FramewebPackage"
+            genModel="model/frameweb.genmodel"/>
+   </extension>
+
+</plugin>

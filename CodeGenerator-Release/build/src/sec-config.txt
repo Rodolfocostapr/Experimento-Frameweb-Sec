@@ -1,0 +1,52 @@
+	
+	******* CODE TO BE ADDED TO THE WEB.XML FILE ********
+	<login-config>
+        <auth-method>FORM</auth-method>
+        <realm-name>NOME</realm-name>
+        <form-login-config>
+            <form-login-page>/page.xhtml</form-login-page>
+            <form-error-page>/page.xhtml</form-error-page>
+        </form-login-config>
+    </login-config>
+    
+    <security-constraint>
+  		<web-resource-collection>
+    		<web-resource-name>Private</web-resource-name>
+    		<description>Matches all pages.</description>
+    		<url-pattern>/secured/*</url-pattern>
+  		</web-resource-collection>
+  		<auth-constraint>
+     		<role-name>PERM_USER</role-name>
+  		</auth-constraint>
+	</security-constraint>
+    
+	<security-constraint>
+	  <web-resource-collection>
+	    <web-resource-name>Public</web-resource-name>
+	    <description>Matches a few special pages.</description>
+	    <url-pattern>/page.xhtml</url-pattern>
+	  </web-resource-collection>
+	  <!-- No auth-constraint means everybody has access! -->
+	</security-constraint>
+	
+	<security-role>
+	  <role-name>PERM_USER</role-name>
+	</security-role>
+
+	******* CODE TO BE ADDED TO THE STANDALONE.XML FILE ********
+
+	<security-domain name="NOME">
+    <authentication>
+        <login-module code="Database" flag="required">
+            <module-option name="dsJndiName" value="java:jboss/datasources/NOME"/>
+            <module-option name="principalsQuery" value="select User.password from User where User.username=?"/>
+            <module-option name="rolesQuery" value="select Role_Permission.Permissions_permissionName, 'Roles'
+                        FROM User, User_Role, Role_Permission 
+                        where User.user_id = User_Role.User_user_id and
+                        Role_Permission.Role_roleName = User_Role.Roles_roleName and User.username = ?"/>
+            <module-option name="hashAlgorithm" value="MD5"/>
+            <module-option name="hashEncoding" value="base64"/>
+            <module-option name="hashUserPassword" value="true"/>
+        </login-module>
+    </authentication>
+	</security-domain>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frameweb:FrameworkProfile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:frameweb="http://nemo.inf.ufes.br/projects/frameweb/FW-2015" name="JSTL">
+  <packagedElement xsi:type="frameweb:TagLib" name="JSTLformatting" URI="http://java.sun.com/jsp/jstl/fmt" prefix="fmt">
+    <packagedElement xsi:type="frameweb:Tag" name="formatNumber"/>
+    <packagedElement xsi:type="frameweb:Tag" name="parseNumber"/>
+    <packagedElement xsi:type="frameweb:Tag" name="formatDate"/>
+    <packagedElement xsi:type="frameweb:Tag" name="bundle"/>
+    <packagedElement xsi:type="frameweb:Tag" name="setLocale"/>
+    <packagedElement xsi:type="frameweb:Tag" name="setBundle"/>
+    <packagedElement xsi:type="frameweb:Tag" name="setTimeZone"/>
+    <packagedElement xsi:type="frameweb:Tag" name="message"/>
+    <packagedElement xsi:type="frameweb:Tag" name="requestEncoding"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="JSTLsql" URI="http://java.sun.com/jsp/jstl/sql" prefix="sql">
+    <packagedElement xsi:type="frameweb:Tag" name="setDataSource"/>
+    <packagedElement xsi:type="frameweb:Tag" name="query"/>
+    <packagedElement xsi:type="frameweb:Tag" name="update"/>
+    <packagedElement xsi:type="frameweb:Tag" name="param"/>
+    <packagedElement xsi:type="frameweb:Tag" name="dateParam"/>
+    <packagedElement xsi:type="frameweb:Tag" name="transaction"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="JSTLxml" URI="http://java.sun.com/jsp/jstl/xml" prefix="x">
+    <packagedElement xsi:type="frameweb:Tag" name="out"/>
+    <packagedElement xsi:type="frameweb:Tag" name="parse"/>
+    <packagedElement xsi:type="frameweb:Tag" name="set"/>
+    <packagedElement xsi:type="frameweb:Tag" name="if"/>
+    <packagedElement xsi:type="frameweb:Tag" name="forEach"/>
+    <packagedElement xsi:type="frameweb:Tag" name="choose"/>
+    <packagedElement xsi:type="frameweb:Tag" name="when"/>
+    <packagedElement xsi:type="frameweb:Tag" name="otherwise"/>
+    <packagedElement xsi:type="frameweb:Tag" name="transform"/>
+    <packagedElement xsi:type="frameweb:Tag" name="param"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="JSTLfunctions" URI="http://java.sun.com/jsp/jstl/functions" prefix="fn">
+    <packagedElement xsi:type="frameweb:Tag" name="contains"/>
+    <packagedElement xsi:type="frameweb:Tag" name="containsIgnoreCase"/>
+    <packagedElement xsi:type="frameweb:Tag" name="endsWith"/>
+    <packagedElement xsi:type="frameweb:Tag" name="escapeXml"/>
+    <packagedElement xsi:type="frameweb:Tag" name="indexOf"/>
+    <packagedElement xsi:type="frameweb:Tag" name="join"/>
+    <packagedElement xsi:type="frameweb:Tag" name="length"/>
+    <packagedElement xsi:type="frameweb:Tag" name="replace"/>
+    <packagedElement xsi:type="frameweb:Tag" name="split"/>
+    <packagedElement xsi:type="frameweb:Tag" name="startsWith"/>
+    <packagedElement xsi:type="frameweb:Tag" name="substring"/>
+    <packagedElement xsi:type="frameweb:Tag" name="substringAfter"/>
+    <packagedElement xsi:type="frameweb:Tag" name="substringBefore"/>
+    <packagedElement xsi:type="frameweb:Tag" name="toLowerCase"/>
+    <packagedElement xsi:type="frameweb:Tag" name="toUpperCase"/>
+    <packagedElement xsi:type="frameweb:Tag" name="trim"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="JSTLcore" URI="http://java.sun.com/jsp/jstl/core" prefix="c">
+    <packagedElement xsi:type="frameweb:Tag" name="out"/>
+    <packagedElement xsi:type="frameweb:Tag" name="set"/>
+    <packagedElement xsi:type="frameweb:Tag" name="remove"/>
+    <packagedElement xsi:type="frameweb:Tag" name="catch"/>
+    <packagedElement xsi:type="frameweb:Tag" name="if"/>
+    <packagedElement xsi:type="frameweb:Tag" name="choose"/>
+    <packagedElement xsi:type="frameweb:Tag" name="when"/>
+    <packagedElement xsi:type="frameweb:Tag" name="otherwise"/>
+    <packagedElement xsi:type="frameweb:Tag" name="import"/>
+    <packagedElement xsi:type="frameweb:Tag" name="forEach"/>
+    <packagedElement xsi:type="frameweb:Tag" name="param"/>
+    <packagedElement xsi:type="frameweb:Tag" name="redirect"/>
+    <packagedElement xsi:type="frameweb:Tag" name="url"/>
+  </packagedElement>
+</frameweb:FrameworkProfile>

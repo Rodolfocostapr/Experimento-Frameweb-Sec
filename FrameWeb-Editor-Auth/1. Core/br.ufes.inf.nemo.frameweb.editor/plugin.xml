@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated frameweb -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="br.ufes.inf.nemo.frameweb.model.frameweb.presentation.FramewebModelWizardID"
+            name="%_UI_FramewebModelWizard_label"
+            class="br.ufes.inf.nemo.frameweb.model.frameweb.presentation.FramewebModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/FramewebModelFile.gif">
+         <description>%_UI_FramewebModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated frameweb -->
+      <editor
+            id="br.ufes.inf.nemo.frameweb.model.frameweb.presentation.FramewebEditorID"
+            name="%_UI_FramewebEditor_label"
+            icon="icons/full/obj16/FramewebModelFile.gif"
+            extensions="frameweb"
+            class="br.ufes.inf.nemo.frameweb.model.frameweb.presentation.FramewebEditor"
+            contributorClass="br.ufes.inf.nemo.frameweb.model.frameweb.presentation.FramewebActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

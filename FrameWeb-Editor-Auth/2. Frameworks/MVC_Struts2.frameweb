@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frameweb:FrameworkProfile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:frameweb="http://nemo.inf.ufes.br/projects/frameweb/FW-2015" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" name="JSF" kind="FrameworkImplementation">
+  <packagedElement xsi:type="frameweb:TagLib" name="Generic Control Tags" URI="/struts-tags" prefix="s">
+    <packagedElement xsi:type="frameweb:Tag" name="if"/>
+    <packagedElement xsi:type="frameweb:Tag" name="elseif"/>
+    <packagedElement xsi:type="frameweb:Tag" name="else"/>
+    <packagedElement xsi:type="frameweb:Tag" name="append"/>
+    <packagedElement xsi:type="frameweb:Tag" name="generator"/>
+    <packagedElement xsi:type="frameweb:Tag" name="iterator"/>
+    <packagedElement xsi:type="frameweb:Tag" name="merge"/>
+    <packagedElement xsi:type="frameweb:Tag" name="sort"/>
+    <packagedElement xsi:type="frameweb:Tag" name="subset"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="Generic Data Tags" URI="/struts-tags" prefix="s">
+    <packagedElement xsi:type="frameweb:Tag" name="a"/>
+    <packagedElement xsi:type="frameweb:Tag" name="action"/>
+    <packagedElement xsi:type="frameweb:Tag" name="bean"/>
+    <packagedElement xsi:type="frameweb:Tag" name="date"/>
+    <packagedElement xsi:type="frameweb:Tag" name="debug"/>
+    <packagedElement xsi:type="frameweb:Tag" name="i18n"/>
+    <packagedElement xsi:type="frameweb:Tag" name="include"/>
+    <packagedElement xsi:type="frameweb:Tag" name="param"/>
+    <packagedElement xsi:type="frameweb:Tag" name="property"/>
+    <packagedElement xsi:type="frameweb:Tag" name="push"/>
+    <packagedElement xsi:type="frameweb:Tag" name="set"/>
+    <packagedElement xsi:type="frameweb:Tag" name="text"/>
+    <packagedElement xsi:type="frameweb:Tag" name="url"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="UI Form Tags" URI="/struts-tags" prefix="s">
+    <packagedElement xsi:type="frameweb:Tag" name="checkbox"/>
+    <packagedElement xsi:type="frameweb:Tag" name="checkboxlist"/>
+    <packagedElement xsi:type="frameweb:Tag" name="combobox"/>
+    <packagedElement xsi:type="frameweb:Tag" name="datetextfield"/>
+    <packagedElement xsi:type="frameweb:Tag" name="doubleselect"/>
+    <packagedElement xsi:type="frameweb:Tag" name="head"/>
+    <packagedElement xsi:type="frameweb:Tag" name="file"/>
+    <packagedElement xsi:type="frameweb:Tag" name="form"/>
+    <packagedElement xsi:type="frameweb:Tag" name="hidden"/>
+    <packagedElement xsi:type="frameweb:Tag" name="inputtransferselect"/>
+    <packagedElement xsi:type="frameweb:Tag" name="label"/>
+    <packagedElement xsi:type="frameweb:Tag" name="optiontransferselect"/>
+    <packagedElement xsi:type="frameweb:Tag" name="optgroup"/>
+    <packagedElement xsi:type="frameweb:Tag" name="password"/>
+    <packagedElement xsi:type="frameweb:Tag" name="radio"/>
+    <packagedElement xsi:type="frameweb:Tag" name="reset"/>
+    <packagedElement xsi:type="frameweb:Tag" name="select"/>
+    <packagedElement xsi:type="frameweb:Tag" name="submit"/>
+    <packagedElement xsi:type="frameweb:Tag" name="textarea"/>
+    <packagedElement xsi:type="frameweb:Tag" name="textfield"/>
+    <packagedElement xsi:type="frameweb:Tag" name="token"/>
+    <packagedElement xsi:type="frameweb:Tag" name="updownselect"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="Non-Form UI Tags" URI="/struts-tags" prefix="s">
+    <packagedElement xsi:type="frameweb:Tag" name="actionerror"/>
+    <packagedElement xsi:type="frameweb:Tag" name="actionmessage"/>
+    <packagedElement xsi:type="frameweb:Tag" name="component"/>
+    <packagedElement xsi:type="frameweb:Tag" name="div"/>
+    <packagedElement xsi:type="frameweb:Tag" name="filderror"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:TagLib" name="Ajax Tags" URI="/struts-dojo-tags" prefix="sx">
+    <packagedElement xsi:type="frameweb:Tag" name="a"/>
+    <packagedElement xsi:type="frameweb:Tag" name="autocompleter"/>
+    <packagedElement xsi:type="frameweb:Tag" name="bind"/>
+    <packagedElement xsi:type="frameweb:Tag" name="datetimepicker"/>
+    <packagedElement xsi:type="frameweb:Tag" name="div"/>
+    <packagedElement xsi:type="frameweb:Tag" name="head"/>
+    <packagedElement xsi:type="frameweb:Tag" name="submit"/>
+    <packagedElement xsi:type="frameweb:Tag" name="tabbedPanel"/>
+    <packagedElement xsi:type="frameweb:Tag" name="textarea"/>
+    <packagedElement xsi:type="frameweb:Tag" name="tree"/>
+    <packagedElement xsi:type="frameweb:Tag" name="treenode"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:ResultSet" name="Predefined Result Types">
+    <packagedElement xsi:type="frameweb:ResultType" name="chain"/>
+    <packagedElement xsi:type="frameweb:ResultType" name="dispatcher"/>
+    <packagedElement xsi:type="frameweb:ResultType" name="freemarker"/>
+    <packagedElement xsi:type="frameweb:ResultType" name="httpheader"/>
+    <packagedElement xsi:type="frameweb:ResultType" name="redirect"/>
+    <packagedElement xsi:type="frameweb:ResultType" name="redirectaction"/>
+    <packagedElement xsi:type="frameweb:ResultType" name="stream"/>
+    <packagedElement xsi:type="frameweb:ResultType" name="velocity"/>
+    <packagedElement xsi:type="frameweb:ResultType" name="xsl"/>
+    <packagedElement xsi:type="frameweb:ResultType" name="plaintext"/>
+    <packagedElement xsi:type="frameweb:ResultType" name="tiles2"/>
+    <packagedElement xsi:type="frameweb:ResultType" name="tiles3"/>
+    <packagedElement xsi:type="frameweb:ResultType" name="postback"/>
+    <packagedElement xsi:type="frameweb:ResultType" name="json"/>
+  </packagedElement>
+  <packagedElement xsi:type="frameweb:ControllerSet" name="Actions">
+    <packagedElement xsi:type="frameweb:ControllerExtension" name="ActionExtension" memberEnd="//Actions/ActionExtension/@ownedEnd.0 //Actions/Action/base_FrontControllerClass">
+      <ownedEnd xsi:type="frameweb:ControllerExtensionEnd" aggregation="composite" association="//Actions/ActionExtension"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:Controller" name="Action">
+      <ownedAttribute xsi:type="frameweb:ControllerProperty" name="base_FrontControllerClass" aggregation="composite" association="//Actions/ActionExtension">
+        <defaultValue xsi:type="uml:LiteralString" value="Controller"/>
+      </ownedAttribute>
+    </packagedElement>
+  </packagedElement>
+</frameweb:FrameworkProfile>

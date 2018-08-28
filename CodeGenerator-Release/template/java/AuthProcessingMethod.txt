@@ -1,0 +1,10 @@
+	public FW_METHOD_RETURN_TYPE FW_METHOD_NAME(){
+		try {
+			HttpServletRequest request = (HttpServletRequest) FacesContext.getCurrentInstance().getExternalContext().getRequest();
+			request.login(email, password);
+		}
+		catch (Exception e) {
+			throw new LoginFailedException(e, LoginFailedReason.NO_HTTP_REQUEST);
+		}
+		return "/index.xhtml?faces-redirect=true";
+	}

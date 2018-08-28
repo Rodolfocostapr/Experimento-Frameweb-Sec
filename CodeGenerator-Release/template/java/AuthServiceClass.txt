@@ -1,0 +1,14 @@
+package com.frameweb.java;
+
+@RolesAllowed("FW_PERM_NAME_APP_CLASS")
+FW_CLASS_VISIBILITY class FW_CLASS_NAME FW_EXTENDS {
+
+FW_CLASS_PARAMETERS
+
+	public FW_CLASS_NAME(){
+		
+	}
+
+FW_CLASS_METHOD
+	
+}

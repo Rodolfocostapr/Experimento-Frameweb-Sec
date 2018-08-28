@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frameweb:FramewebProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:frameweb="http://nemo.inf.ufes.br/projects/frameweb/FW-2015" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <compose xsi:type="frameweb:EntityModel" name="JAVA">
+    <packagedElement xsi:type="uml:PrimitiveType" name="byte"/>
+    <packagedElement xsi:type="uml:PrimitiveType" name="short"/>
+    <packagedElement xsi:type="uml:PrimitiveType" name="int"/>
+    <packagedElement xsi:type="uml:PrimitiveType" name="long"/>
+    <packagedElement xsi:type="uml:PrimitiveType" name="float"/>
+    <packagedElement xsi:type="uml:PrimitiveType" name="double"/>
+    <packagedElement xsi:type="uml:PrimitiveType" name="boolean"/>
+    <packagedElement xsi:type="uml:PrimitiveType" name="char"/>
+    <packagedElement xsi:type="uml:PrimitiveType" name="Object"/>
+    <packagedElement xsi:type="uml:PrimitiveType" name="String"/>
+    <packagedElement xsi:type="uml:Class" name="Calendar"/>
+    <packagedElement xsi:type="uml:Class" name="List"/>
+    <packagedElement xsi:type="uml:Class" name="Set"/>
+    <packagedElement xsi:type="uml:Class" name="Date"/>
+  </compose>
+</frameweb:FramewebProject>
