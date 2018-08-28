@@ -1,0 +1,5 @@
+package com.frameweb.java;
+ import java.util.List;
+ public interface FW_INTERFACE_NAME extends GenericDAO<FW_INTERFACE_INFIX> {
+	FW_INTERFACE_METHOD
+}

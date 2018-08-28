@@ -1,0 +1,49 @@
+package com.frameweb.java;
+
+import java.util.List;
+
+FW_CLASS_VISIBILITY class FW_CLASS_NAME FW_EXTENDS FW_IMPLEMENTS{
+
+	
+FW_CLASS_PARAMETERS
+
+
+FW_CLASS_METHOD
+
+	public FW_CLASS_NAME()
+	{
+		
+	}
+	
+	@Override
+	public List<FW_CLASS_NAME> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public FW_CLASS_IMPLEMENTS_INFIX get(int rollNo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void update(FW_CLASS_IMPLEMENTS_INFIX t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(FW_CLASS_IMPLEMENTS_INFIX t) {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+	@Override
+	public List<FW_CLASS_IMPLEMENTS_INFIX> getAtivos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

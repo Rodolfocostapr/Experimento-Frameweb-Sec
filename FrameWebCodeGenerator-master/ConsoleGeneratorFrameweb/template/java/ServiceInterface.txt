@@ -1,0 +1,8 @@
+package com.frameweb.java;
+
+
+interface FW_INTERFACE_NAME {
+
+FW_INTERFACE_METHOD
+	
+}

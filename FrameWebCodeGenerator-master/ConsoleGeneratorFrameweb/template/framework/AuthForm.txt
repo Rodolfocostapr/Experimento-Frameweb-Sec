@@ -1,0 +1,7 @@
+<form action="j_security_check" method="post">
+	<h:outputLabel value="Enter UserName:" />
+	<input type="text" name="j_username"/><br/><br/>
+	<h:outputLabel value="Enter Password:" />
+	<input type="password" name="j_password"/> <br/><br/>			
+	<input type="submit" value="Login"/>
+</form>   

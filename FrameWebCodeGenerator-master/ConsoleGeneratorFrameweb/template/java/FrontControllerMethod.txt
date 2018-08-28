@@ -1,0 +1,3 @@
+	public FW_METHOD_RETURN_TYPE FW_METHOD_NAME(){
+		return null;
+	}
